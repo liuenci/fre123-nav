@@ -22,10 +22,10 @@
 					},
 					{
 						"title": "Claude",
-						"ori_url": "https://claude.ai",
-						"url": "https://claude.ai",
-						"icon": "https://example.com/icon/claude.jpg",
-						"description": "An AI assistant specializing in complex reasoning tasks and programming support, known for high interaction efficiency.",
+						"ori_url": "https://claude.ai/",
+						"url": "https://claude.ai/",
+						"icon": "/icons/claude.svg",
+						"description": "An advanced AI assistant developed by Anthropic, offering natural language interactions and code generation capabilities.",
 						"suffix": false,
 						"is_show": true
 					},
@@ -40,19 +40,19 @@
 					},
 					{
 						"title": "Hugging Face",
-						"ori_url": "https://huggingface.co",
-						"url": "https://huggingface.co",
-						"icon": "https://example.com/icon/huggingface.jpg",
-						"description": "Open-source AI community offering state-of-the-art NLP models and collaborative machine learning resources.",
+						"ori_url": "https://huggingface.co/",
+						"url": "https://huggingface.co/",
+						"icon": "/icons/huggingface.svg",
+						"description": "A platform for sharing and discovering AI models, datasets, and applications.",
 						"suffix": false,
 						"is_show": true
 					},
 					{
 						"title": "Perplexity",
-						"ori_url": "https://www.perplexity.ai",
-						"url": "https://www.perplexity.ai",
-						"icon": "https://example.com/icon/perplexity.jpg",
-						"description": "Research-oriented search engine providing answers with cited sources, optimized for academic queries.",
+						"ori_url": "https://www.perplexity.ai/",
+						"url": "https://www.perplexity.ai/",
+						"icon": "/icons/perplexity.svg",
+						"description": "An AI-powered search engine that provides direct answers to questions with real-time information.",
 						"suffix": false,
 						"is_show": true
 					},
