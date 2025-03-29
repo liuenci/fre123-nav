@@ -69,7 +69,11 @@
 					@mouseover="showToSourceIcon('show', idx, t)"
 					@mouseout="showToSourceIcon('hide', idx, t)"
 				>
-					<img class="index-nav-group-content-item-icon" :src="item.icon" />
+					<img 
+						class="index-nav-group-content-item-icon" 
+						:src="getIconSrc(item)" 
+						@error="handleImageError(item)"
+					/>
 					<div class="index-nav-group-content-item-main">
 						<div class="index-nav-group-content-item-name">{{ item.title }}</div>
 						<div :id="`desc-${idx}-${t}`" class="index-nav-group-content-item-desc">
@@ -110,6 +114,19 @@ const isHovering = ref(false)
 const tabName = ref(props.groupData.tab_list[0].tab_name)
 
 const showNumber = ref(100)
+
+// 存储失败图片的映射
+const fallbackIcons = ref(new Map())
+
+// 处理图片加载失败
+const handleImageError = (item: any) => {
+	fallbackIcons.value.set(item.title, true)
+}
+
+// 获取图片源
+const getIconSrc = (item: any) => {
+	return fallbackIcons.value.get(item.title) ? '/icons/aislogo.svg' : item.icon
+}
 
 // 切换数据
 let rewrite = false
