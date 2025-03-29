@@ -25,6 +25,20 @@ export default defineNuxtConfig({
 					href: 'https://img.fre123.com/i/2023/11/25/65619e791f166.ico',
 				},
 			],
+			script: [
+				{
+					src: 'https://www.googletagmanager.com/gtag/js?id=G-LD6R0FL9DQ',
+					async: true,
+				},
+				{
+					children: `
+						window.dataLayer = window.dataLayer || [];
+						function gtag(){dataLayer.push(arguments);}
+						gtag('js', new Date());
+						gtag('config', 'G-LD6R0FL9DQ');
+					`,
+				},
+			],
 			meta: [
 				{
 					name: 'keywords',
