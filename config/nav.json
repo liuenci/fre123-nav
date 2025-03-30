@@ -33,7 +33,7 @@
 						"title": "Midjourney",
 						"ori_url": "https://www.midjourney.com",
 						"url": "https://www.midjourney.com",
-						"icon": "https://example.com/icon/midjourney.jpg",
+						"icon": "/icons/midjourney.svg",
 						"description": "Leading AI art generation platform enabling photorealistic and stylized image creation through text prompts.",
 						"suffix": false,
 						"is_show": true
@@ -60,7 +60,7 @@
 						"title": "Cursor",
 						"ori_url": "https://cursor.sh",
 						"url": "https://cursor.sh",
-						"icon": "https://example.com/icon/cursor.jpg",
+						"icon": "/icons/cursor.png",
 						"description": "AI-powered code editor with context-aware autocompletion and real-time optimization for developers.",
 						"suffix": false,
 						"is_show": true
@@ -69,7 +69,7 @@
 						"title": "Sora",
 						"ori_url": "https://openai.com/sora",
 						"url": "https://openai.com/sora",
-						"icon": "https://example.com/icon/sora.jpg",
+						"icon": "/icons/sora.png",
 						"description": "OpenAI's video generation model producing 4K resolution clips from text descriptions.",
 						"suffix": false,
 						"is_show": true
@@ -78,7 +78,7 @@
 						"title": "Bard",
 						"ori_url": "https://bard.google.com",
 						"url": "https://bard.google.com",
-						"icon": "https://example.com/icon/bard.jpg",
+						"icon": "/icons/bard.png",
 						"description": "Google's conversational AI integrated with search capabilities and workspace ecosystem.",
 						"suffix": false,
 						"is_show": true
